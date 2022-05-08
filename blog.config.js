@@ -1,10 +1,10 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
   AUTHOR: '洋同学', // 作者
-  BIO: '一个普通的金融民工🥱', // 作者简介
+  BIO: '一个普通金融民工', // 作者简介
   LINK: 'https://afenxishi.com', // 网站地址
   AVATAR: '/avatar.png', // 个人头像 默认取public目录下的avatar.png
-  KEYWORDS: '财经, 政策库', // 网站关键词 英文逗号隔开
+  KEYWORDS: '财经,政策库', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID || '24e833967ae741dc88c82b4783343da1', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
